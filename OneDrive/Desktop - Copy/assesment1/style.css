@@ -1,0 +1,216 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f8fc;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Navbar */
+nav{
+    background:#0077ff;
+    display:flex;
+    justify-content:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Headings */
+h1,h2{
+    text-align:center;
+    margin:20px 0;
+    color:#0077ff;
+}
+
+p{
+    text-align:center;
+    margin:10px 20px;
+}
+
+/* Hero */
+.hero{
+    text-align:center;
+    padding:50px 20px;
+    background:linear-gradient(to right,#0077ff,#00bfff);
+    color:white;
+}
+
+/* Buttons */
+button,
+input[type="submit"],
+input[type="reset"]{
+    background:#0077ff;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    margin:10px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover{
+    background:#0056cc;
+}
+
+/* Cards */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* Table */
+table{
+    margin:20px auto;
+    border-collapse:collapse;
+    width:60%;
+    background:white;
+}
+
+th,td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+th{
+    background:#0077ff;
+    color:white;
+}
+
+/* Form */
+form{
+    width:60%;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+/* Footer */
+footer{
+    background:#0077ff;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+nav{
+    flex-direction:column;
+    text-align:center;
+}
+
+table,
+form{
+    width:90%;
+
+
+}
+.hero{
+    background: linear-gradient(to right,#0077ff,#00bfff);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:50px;
+    margin-bottom:15px;
+    color:white;
+}
+
+.hero p{
+    font-size:20px;
+    color:white;
+}
+}
+.logo{
+    color:white;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(to right,#0077ff,#00c6ff);
+    color:white;
+}
+
+.hero h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.hero button{
+    padding:12px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+    background:white;
+    color:#0077ff;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.hero button:hover{
+    background:#f1f1f1;
+}
+
+h2{
+    text-align:center;
+    color:#0077ff;
+    margin:40px 0 20px;
+}
